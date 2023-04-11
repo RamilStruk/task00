@@ -9,6 +9,7 @@ int number2 = 2;
 
 if (number > 1)
 {
+    
     while (number2 <= number)
     {
         Console.Write(number2 + " ");
