@@ -1,4 +1,8 @@
-﻿Console.Write("введите трехзначное число");
+﻿//последняя цифра трехзначного числа
+
+
+
+Console.Write("введите трехзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number<0)
 number = -number;
