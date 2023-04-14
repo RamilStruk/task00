@@ -11,6 +11,8 @@ int YCoordinate = Convert.ToInt32(Console.ReadLine());
 
 int quarter = Quarter(XCoordinate, YCoordinate);
 string result = quarter > 0 ? $"указанные координаты соответствуют четверти -> {quarter}" : "введены неккоректные координаты";
+Console.WriteLine(result);
+
 
 int Quarter(int X, int Y)
 {
