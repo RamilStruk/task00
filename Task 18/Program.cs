@@ -9,7 +9,7 @@ string range = Range(number);
 
 Console.WriteLine(range == null ? "Некорректный ввод" : range);
 
-string Range(int num)
+string? Range(int num)
 {
     if (num == 1) return "x > 0, y > 0";
     if (num == 2) return "x < 0, y > 0";
