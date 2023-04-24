@@ -17,7 +17,7 @@ Console.Write($"] ");
 int[] CreateArray(int size)
 {
     int[] array = new int [size];
-    Random random = new Random(); // оптимизация объекта Random (var - объект неявной типизации)
+    Random random = new Random(); 
     for (int i = 0; i < lenghtArray; i++)
     {
         array[i] = random.Next(0, 100);
