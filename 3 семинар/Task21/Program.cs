@@ -36,4 +36,4 @@ int zBCoordinate = Convert.ToInt32(Console.ReadLine());
 
 double distanceAB = DistanceAB(xACoordinate, yACoordinate, xBCoordinate, yBCoordinate, zACoordinate, zBCoordinate);
 double distRound = Math.Round(distanceAB, 2, MidpointRounding.ToZero);
-Console.WriteLine ($"расстояние между точками = {distRound}");
+Console.WriteLine($"расстояние между точками = {distRound}");
