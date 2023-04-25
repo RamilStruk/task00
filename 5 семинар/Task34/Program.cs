@@ -10,6 +10,7 @@
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
+
 FillArrayRandomNumbers(numbers);
 Console.WriteLine(" Массив: ");
 PrintArray(numbers);
@@ -25,7 +26,7 @@ void FillArrayRandomNumbers(int[] numbers)
 {
     for (int i = 0; i < numbers.Length; i++)
     {
-        numbers[i] = new Random().Next(0, 1000);
+        numbers[i] = new Random().Next(100, 1000);
     }
 }
 void PrintArray(int[] numbers)
